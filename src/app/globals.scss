@@ -30,3 +30,19 @@ main {
     justify-content: center;
   }
 }
+
+.front-end-developer {
+  position: relative;
+  margin-top: 37px;
+
+  svg {
+    margin-top: 37px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}

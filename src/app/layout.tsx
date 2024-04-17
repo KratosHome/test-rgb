@@ -2,6 +2,7 @@ import type {Metadata} from "next";
 import "./globals.scss";
 import Header from "@/components/Header/Header";
 import localFont from 'next/font/local'
+import FrontEndDeveloper from "@/components/assets/frontEndDeveloper";
 
 const myFont = localFont({
     src: [
@@ -53,6 +54,9 @@ export default function RootLayout({
         <body className={myFont.className}>
         <Header/>
         {children}
+        <div className="front-end-developer">
+            <FrontEndDeveloper/>
+        </div>
         </body>
         </html>
     );
