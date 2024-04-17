@@ -1,0 +1,73 @@
+.container {
+  @media (max-width: 1000px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .card {
+    display: flex;
+    margin-bottom: 16px;
+
+    .img {
+      margin-right: 17px;
+      position: relative;
+      border-radius: 100%;
+      overflow: hidden;
+    }
+
+    span:nth-child(1) {
+      font-weight: 700;
+    }
+
+    span {
+      display: block;
+      line-height: 17.6px;
+      text-align: left;
+      @media (max-width: 1000px) {
+        font-size: 13px;
+        line-height: 148%;
+      }
+    }
+  }
+
+  .employer {
+    .img {
+      width: 80.383px;
+      height: 43.631px;
+      @media (max-width: 1000px) {
+        width: 123.383px;
+        height: 43.631px;
+      }
+    }
+    span:nth-child(1) {
+      font-size: 13px;
+      text-transform: uppercase;
+      line-height: 120%;
+
+      span {
+        display: inline-block;
+        color: #4252D1;
+      }
+    }
+
+    span:nth-child(2) {
+      line-height: 160%;
+    }
+  }
+
+  .present {
+    .img {
+      width: 37.81px;
+      height: 37.81px;
+      @media (max-width: 1000px) {
+        width: 60.81px;
+        height: 37.81px;
+      }
+    }
+
+    span {
+      font-size: 12px;
+      line-height: 148%;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --index: calc(1vw + 1vh);
+  --background-color: #242731;
+  --text-color: #FFFFFF;
+}
+
+body {
+  max-width: 1040px;
+  margin: 0 auto;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 20px 20px;
+
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

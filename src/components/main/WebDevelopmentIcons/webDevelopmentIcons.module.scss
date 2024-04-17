@@ -1,0 +1,99 @@
+.container {
+  position: absolute;
+  z-index: -1;
+  right: 35px;
+
+  .img_vc,
+  .img_substrate,
+  .img_js,
+  .img_css,
+  .img_html {
+    position: relative;
+
+    svg {
+      width: 6px;
+      height: 6px;
+    }
+  }
+
+  .img_html {
+    width: 88.276px;
+    height: 88.276px;
+    transform: rotate(12.298deg);
+
+    svg {
+      position: absolute;
+      right: 0;
+
+      circle {
+        fill: #F16529;
+      }
+    }
+  }
+
+  .img_css {
+    right: 80px;
+    width: 60.403px;
+    height: 85.448px;
+    transform: rotate(-21.664deg);
+
+    svg {
+      position: absolute;
+      right: -15px;
+
+      circle {
+        fill: #2965F1;
+      }
+    }
+  }
+
+  .img_js {
+    width: 120.889px;
+    height: 72.94px;
+    transform: rotate(15.817deg);
+    left: 20px;
+
+    svg {
+      position: absolute;
+      right: 10px;
+      circle {
+        fill: #F0BE25;
+      }
+    }
+
+  }
+
+  .img_substrate {
+    width: 53.927px;
+    height: 53.927px;
+    transform: rotate(-15.115deg);
+    right: 50px;
+
+    svg {
+      position: absolute;
+      right: -15px;
+      circle {
+        fill: #FF9800;
+      }
+    }
+
+  }
+
+  .img_vc {
+    width: 60.621px;
+    height: 60.621px;
+    transform: rotate(-20.557deg);
+    top: 20px;
+    right: -20px;
+
+    svg {
+      position: absolute;
+      right: -15px;
+      bottom: -15px;
+      circle {
+        fill: #48AEF3;
+      }
+    }
+
+  }
+}

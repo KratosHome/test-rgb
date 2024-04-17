@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+
+  .input {
+    background-color: #272D3D;
+    width: 248px;
+    height: 51px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 22px;
+    color: #ffffff;
+    outline: none;
+
+    &::placeholder {
+      color: #D7D7D7;
+      font-size: 12px;
+    }
+
+    &:focus {
+      box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+    }
+  }
+
+  .error {
+    position: absolute;
+    bottom: -17px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17.88px;
+    text-align: center;
+    color: rgba(238, 26, 26, 0.5);
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+}

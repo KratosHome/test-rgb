@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    position: relative;
+    padding-right: 6px;
+    width: 182px;
+    height: 56px;
+    @media (max-width: 550px) {
+      width: 101px;
+      height: 32px;
+    }
+  }
+
+  .wrapper_info {
+    display: flex;
+    gap: 18px;
+
+    .info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 141px;
+      height: 40px;
+      background-color: #302E5A;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 700;
+
+      @media (max-width: 550px) {
+        width: 88px;
+        height: 24px;
+        color: #FFF;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 8.307px;
+      }
+
+      svg {
+        margin-right: 15px;
+      }
+
+    }
+  }
+
+}

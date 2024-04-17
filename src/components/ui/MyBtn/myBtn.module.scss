@@ -1,0 +1,33 @@
+.button {
+  background-color: #FF3459;
+  width: 248px;
+  height: 51px;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: transform 0.2s, box-shadow 0.3s;
+  cursor: pointer;
+
+  @media (max-width: 1000px) {
+    background-color: #0048FF;
+    width: 222.251px;
+    height: 45.553px;
+    font-size: 14px;
+    line-height: 21.508px
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 52, 89, 0.4);
+  }
+
+  &:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 8px rgba(255, 52, 89, 0.6);
+  }
+
+}
+
